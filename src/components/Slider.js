@@ -26,7 +26,8 @@ export default function Slider() {
 
   return (
     <div className="simpleslide100">
-      <div className="simpleslide100-item bg-img1" style={{ backgroundImage: `url(${slide})`, animation: 'fadeIn 7s infinite' }}></div>
+      <div className="simpleslide100-item bg-img1" style={{ backgroundImage: `url(${slide})`, animation: 'fadeIn 7s infinite' }}>
+      </div>
     </div>
   );
 }
